@@ -101,7 +101,7 @@ img {
 .grid {
 
   /* display: grid; même pratique que display: flex; 
-  sauf qu'on l'utiliser pour mettre nos éléments dans des grilles */
+  sauf qu'on l'utiliser pour mettre nos éléments dans des grilles définir la structure */
   display: grid;
 
   gap: 1.5rem;
@@ -109,7 +109,7 @@ img {
 
 .section {
 
-  /* J'ai du mal à comprendre les padding-block et padding-inline */
+  /* J'ai du mal à comprendre les padding-block et padding-inline,  */
   padding-block: 5rem 1rem;
 }
 
@@ -639,16 +639,6 @@ img {
   .footer__content {
     grid-template-columns: repeat(3, max-content);
     justify-content: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .nav__menu {
-    width: 50%;
-  }
-
-  .footer__content {
-    grid-template-columns: repeat(3, max-content);
   }
 }
 
